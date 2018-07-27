@@ -4,7 +4,7 @@
 [![Coverage Status](https://codecov.io/gh/jaagr/polybar/branch/master/graph/badge.svg)](https://codecov.io/gh/jaagr/polybar/branch/master)
 [![MIT License](https://img.shields.io/github/license/jaagr/polybar.svg)](https://github.com/jaagr/polybar/blob/master/LICENSE)
 
-A fast and easy-to-use tool for creating status bars.
+A fast and easy-to-use tool for creating status bars, this git branch is fixed for Android phones with Snapdragon processors, for those who wants to rice on a phone running desktop linux (seriously)
 
 **Polybar** aims to help users build beautiful and highly customizable status bars
 for their desktop environment, without the need of having a black belt in shell scripting.

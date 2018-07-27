@@ -44,7 +44,7 @@ namespace modules {
     }
 
     // Make capacity reader
-    if ((m_fcapnow = file_util::pick({path_battery + "charge_now", path_battery + "energy_now"})).empty()) {
+    if ((m_fcapnow = file_util::pick({path_battery + "charge_now", path_battery + "charge_counter" , path_battery + "energy_now"})).empty()) {
       throw module_error("No suitable way to get current capacity value");
     } else if ((m_fcapfull = file_util::pick({path_battery + "charge_full", path_battery + "energy_full"})).empty()) {
       throw module_error("No suitable way to get max capacity value");
